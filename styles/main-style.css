@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
     margin: 0;
@@ -7,13 +8,17 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #1e1e30;
     color: white;
-    min-height: 100vh; /* min-height to allow body to expand if content is taller */
+    min-height: 100vh; 
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     overflow-x: hidden; /* prevent horizontal scrolling */
+}
+
+.text h1 {
+    font-family: 'Poppins', sans-serif;
 }

@@ -80,11 +80,52 @@ body {
 
 .button {
     color: white;
-    background-color: black; 
+    background-color: #778899; 
     padding: 0.6rem 1rem;
     border-radius: 10px;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     transition: transform 0.2s ease;
     margin-left: -3px;
 }
+
+/* About Me Section */
+
+.about-me-container {
+    height: auto; 
+    padding-top: 5vh; /* Adjust to match alignment */
+}
+
+.about-me-container .text {
+    margin-top: 0;
+}
+
+.about-me-container h1 {
+    font-size: 2.75vw;
+    color: white;
+    margin: 0;
+    position: relative; /* for positioning the underline */
+    display: inline-block; 
+    padding-bottom: 3.8vh; 
+}
+
+/* underline */
+.about-me-container h1::after { 
+    content: '';
+    display: block;
+    width: 50%; /* Match the width of the h1 */
+    height: 4px; 
+    background-color: #778899; 
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    margin-bottom: 3vh;
+}
+
+.about-me-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 60vw;
+    margin: 1rem 0 0 0;
+}
+
