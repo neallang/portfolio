@@ -1,0 +1,87 @@
+/* Smaller desktops and tablets (max-width: 992px) */
+@media only screen and (max-width: 1024px) {
+    .container {
+        padding: 0 8vw;
+        margin-top: -20vh;
+    }
+
+    .text {
+        margin-top: -5vh;
+    }
+
+    .text h1 {
+        font-size: 4vw;
+    }
+
+    .typing-effect {
+        font-size: 2.5vw;
+    }
+
+    .typed-cursor {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+
+    .avatar {
+        width: 40vw;
+    }
+}
+
+/* Tablets and small desktops (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 6vw;
+        margin-top: -20vh;
+    }
+
+    .text {
+        margin-top: -5vh;
+    }
+
+    .text h1 {
+        font-size: 5vw;
+    }
+
+    .typing-effect {
+        font-size: 3.5vw;
+    }
+
+    .typed-cursor {
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+    }
+
+    .avatar {
+        width: 50vw;
+    }
+}
+
+/* Phones (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 0 4vw;
+        align-items: center;
+    }
+
+    .text {
+        margin-top: 0;
+    }
+
+    .text h1 {
+        font-size: 6vw;
+    }
+
+    .typing-effect {
+        font-size: 4.5vw;
+    }
+
+    .typed-cursor {
+        font-size: 4.5vw;
+        line-height: 4.5vw;
+    }
+
+    .avatar {
+        width: 60vw;
+        margin-top: 2vh;
+    }
+}
