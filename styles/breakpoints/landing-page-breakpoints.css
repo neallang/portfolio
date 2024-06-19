@@ -32,6 +32,9 @@
         font-size: 2.7rem; 
         margin-left: 1.2vw;
     }
+    .about-me-container {
+        padding-top: 45vh; 
+    }
     .about-me-container p {
         font-size: 1.3rem;
         line-height: 1.4;
@@ -75,7 +78,9 @@
         font-size: 2.5rem; 
         margin-left: 1.2vw;
     }
-
+    .about-me-container {
+        padding-top: 45vh; 
+    }
     .about-me-container p {
         font-size: 1.2rem;
         line-height: 1.4;
@@ -117,6 +122,9 @@
     .icon {
         font-size: 2.5rem; 
         margin-left: 1.5vw;
+    }
+    .about-me-container {
+        padding-top: 45vh; 
     }
     .about-me-container p {
         font-size: .9rem;
