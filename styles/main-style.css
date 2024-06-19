@@ -10,8 +10,10 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: #1e1e30;
     color: white;
-    height: 100vh;
+    min-height: 100vh; /* min-height to allow body to expand if content is taller */
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
+    overflow-x: hidden; /* prevent horizontal scrolling */
 }

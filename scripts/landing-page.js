@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     var descriptions = {
-        strings: ["A creator.", "A designer.", "A problem solver."],
+        strings: ["A creator.", "A collaborator.", "A designer.", "A problem solver."],
         typeSpeed: 60,
         backSpeed: 45,
         backDelay: 1000,
