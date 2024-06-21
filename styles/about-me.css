@@ -1,7 +1,9 @@
+.about-me-container {
+    margin-bottom: -35vh; /* bring skills section higher. */
+}
+
 .about-me-container h1::after { 
     width: 50%; 
-    left: 0;
-    bottom: 0; 
     margin-bottom: 3vh;
 }
 

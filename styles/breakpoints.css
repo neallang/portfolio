@@ -25,6 +25,10 @@
         font-size: 2.5vw; 
     }
 
+    .about-me-container {
+        margin-bottom: -45vh; 
+    }
+    
 
     .about-me-container h1::after { 
         width: 9%;
@@ -35,15 +39,16 @@
         max-width: 63vw;
     }
 
-
-    
+    .skills-container h1::after { 
+        width: 8%; 
+    }
 
 }
 
 /* Tablets and small desktops (max-width: 768px) */
 @media only screen and (max-width: 768px) {
     .about-me-container {
-        margin-top: 5vh;
+        margin: 5vh 0 -27.5vh; 
     }
 }
 
@@ -88,8 +93,8 @@
     }
 
     .about-me-container {
-        margin-top: 41vh;
-    }
+        margin-bottom: -25vh; 
+    }    
 
     .about-me-container h1::after { 
         width: 9%;
@@ -100,5 +105,32 @@
         max-width: 69vw;
     }
 
+    .skills-container h1::after { 
+        width: 9%; 
+    }
+
+    .skill {
+        font-size: 1rem;
+    }
+
+    .skills {
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .icon-bg {
+        width: 50px; 
+        height: 50px; 
+        margin-bottom: 1rem;
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3), 
+                    0 8px 20px rgba(0, 0, 0, 0.3) inset; 
+        animation: bounce 2s infinite;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .skill img {
+        width: 30px; 
+        height: 30px; 
+    }
 
 }
