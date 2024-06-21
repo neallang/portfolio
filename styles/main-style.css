@@ -8,7 +8,6 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     background-color: #1e1e30;
     color: white;
     min-height: 100vh; 
@@ -19,6 +18,43 @@ body {
     overflow-x: hidden; /* prevent horizontal scrolling */
 }
 
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+    flex-direction: row;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+    position: relative;
+    margin-top: -35vh;
+    margin-left: 5vw;
+}
+
 .text h1 {
     font-family: 'Poppins', sans-serif;
+    font-size: 2.75vw;
+    color: white;
+    margin: 0;
+    position: relative; /* for positioning the underline */
+    display: inline-block; 
+    padding-bottom: 3.8vh; 
+}
+
+/* this is for the underline under h1. set the width in each section */
+.container h1::after { 
+    content: '';
+    display: block;
+    height: 4px; 
+    background-color: #778899; 
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    margin-bottom: 3vh;
 }

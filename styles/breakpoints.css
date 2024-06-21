@@ -1,0 +1,104 @@
+/* Smaller desktops and tablets (max-width: 992px) */
+@media only screen and (max-width: 1024px) {
+    .avatar {
+        width: 40vw;
+        max-width: 40vw; 
+        margin-top: -20vh;
+        margin-right: 0vw; 
+    }
+
+    .text {
+        margin-top: -33vh;
+    }
+
+    .text h1 {
+        width: 120%;
+        font-size: 3.75vw;
+        padding-bottom: 3.8vh;
+    }
+
+    .typing-effect {
+        font-size: 2.5vw;
+    }
+
+    .typed-cursor {
+        font-size: 2.5vw; 
+    }
+
+
+    .about-me-container h1::after { 
+        width: 9%;
+    }
+    .about-me-container p {
+        font-size: 1.2rem;
+        line-height: 1.44;
+        max-width: 63vw;
+    }
+
+
+    
+
+}
+
+/* Tablets and small desktops (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .about-me-container {
+        margin-top: 5vh;
+    }
+}
+
+/* Phones (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .avatar {
+        width: 40vw;
+        max-width: 40vw; 
+        margin-top: -35vh;
+        margin-right: 3vw; 
+    }
+
+    .text {
+        margin-top: -36vh;
+    }
+
+    .text h1 {
+        width: 120%;
+        font-size: 5vw;
+        padding-bottom: 3.8vh;
+    }
+
+    .typing-effect {
+        font-size: 2.75vw;
+    }
+
+    .typed-cursor {
+        font-size: 2.5vw; 
+    }
+
+    .icon {
+        margin-left: 1vw;
+        font-size: 1.7rem; 
+        transition: transform 0.2s ease;
+    }
+
+    .button {
+        padding: 0.25rem 0.5rem;
+        border-radius: 10px;
+        font-size: 0.7rem;
+        margin-left: -3px;
+    }
+
+    .about-me-container {
+        margin-top: 41vh;
+    }
+
+    .about-me-container h1::after { 
+        width: 9%;
+    }
+    .about-me-container p {
+        font-size: 0.8rem;
+        line-height: 1.44;
+        max-width: 69vw;
+    }
+
+
+}
