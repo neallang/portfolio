@@ -43,12 +43,76 @@
         width: 8%; 
     }
 
+    .projects-container {
+        margin-top: -40vh;
+    }
+
+    .projects-container h1::after {
+        width: 8%;
+    }
+
+    .project-title {
+        font-size: 1.3rem;
+    }
+
+    .project .icon, .project .btn {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .project .project-buttons {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .icon {
+        font-size: 1.5rem;
+        margin-top: 25px;
+    }
+    
+    .icon.fas.fa-external-link-alt {
+        font-size: 1.3rem;
+        position: relative;
+        top: -2px;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    
 }
 
 /* Tablets and small desktops (max-width: 768px) */
 @media only screen and (max-width: 768px) {
     .about-me-container {
         margin: 5vh 0 -27.5vh; 
+    }
+
+    .project img {
+        width: 55%;
+    }
+
+    .project-content {
+        width: 45%;
+    }
+
+    .project-title {
+        font-size: 1.1rem;
+    }
+
+    .icon {
+        font-size: 1.3rem;
+    }
+    
+    .icon.fas.fa-external-link-alt {
+        font-size: 1.1rem;
+    }
+
+
+    .btn {
+        font-size: 0.7rem;
+        padding: 0.3rem 0.7rem;
     }
 }
 
@@ -79,7 +143,7 @@
         font-size: 2.5vw; 
     }
 
-    .icon {
+    .landing-icon {
         margin-left: 1vw;
         font-size: 1.7rem; 
         transition: transform 0.2s ease;
@@ -104,6 +168,7 @@
         line-height: 1.44;
         max-width: 69vw;
     }
+    
 
     .skills-container h1::after { 
         width: 9%; 
@@ -128,5 +193,68 @@
         width: 30px; 
         height: 30px; 
     }
+
+    .projects-container {
+        margin-top: -32vh; 
+    }
+
+    .projects-container h1 {
+        margin-bottom: -15rem; 
+    }
+
+    .projects {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0; 
+    }
+
+    .project:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .project:nth-child(even) .project-content {
+        align-items: center; /* align text to the right for even projects */
+    }
+
+    .project-title {
+        font-size: 1.4rem;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    .project img {
+        width: 90%; 
+        height: auto;
+        
+    }
+
+    .project-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0;
+    }
+
+    .project-buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+
+    .btn, .icon {
+        margin: 0 0.5rem;
+    }
+
 
 }

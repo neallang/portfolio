@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.projects-container h1::after {
+    width: 45%;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+
+.project {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.project:nth-child(even) {
+    flex-direction: row-reverse;
+    
+}
+
+.project img {
+    width: 60%;
+    height: auto;
+    display: block;
+    filter: brightness(0.7);
+    transition: filter 0.3s ease;
+    clip-path: inset(0% round 10px); /* ensure rounded edges on inside */
+}
+
+.project-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding: 2rem;
+    background-color: transparent;
+}
+
+.project-title {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 2.5rem;
+    color: white; 
+}
+
+.project:nth-child(even) .project-content {
+    align-items: flex-end; /* align text to the right for even projects */
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 1rem;
+    gap: 1rem;
+    opacity: 0; /* hidden by default */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.icon {
+    color: white;
+    font-size: 1.9rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    margin-top: 25px;
+}
+
+.icon.fas.fa-external-link-alt {
+    font-size: 1.55rem;
+}
+
+
+.btn {
+    background-color: #1e1e30;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: relative;
+    top: -5px; 
+
+}
+
+/* hover effect */
+.project:hover .icon, .project:hover .btn {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project:hover .icon:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.project:hover .icon:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.project:hover .btn {
+    transition-delay: 0.3s;
+}
+
+.project:hover .project-buttons {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project:hover img {
+    filter: brightness(1);
+}
