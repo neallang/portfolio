@@ -125,5 +125,8 @@ p {
 
 .feature {
     margin-top: 1.2rem;
-    font-weight: 600;
+}
+
+.feature-bold {
+    font-weight: bold;
 }
