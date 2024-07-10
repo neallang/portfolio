@@ -36,8 +36,13 @@
         margin-bottom: 3rem;
     }
 
-    .project-img {
+    .video-container {
+        margin: 1rem 0;
+    }
+    
+    .project-video {
         width: 90%;
+        height: 200px;
     }
 
     .icons {
