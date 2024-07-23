@@ -7,6 +7,10 @@
     }
 }
 
+.skills-container {
+    margin-bottom: 20vh;
+}
+
 .skills-container h1::after { 
     width: 50%; 
 }
