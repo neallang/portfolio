@@ -94,6 +94,10 @@
         margin: 5vh 0 -27.5vh; 
     }
 
+    .skills-container {
+        margin-bottom: 30vh;;
+    }
+
     .project img {
         width: 55%;
     }
