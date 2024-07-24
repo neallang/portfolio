@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Neal's Portfolio</title>
     <link rel="stylesheet" href="styles/main-style.css">
+    <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/landing-page.css">
     <link rel="stylesheet" href="styles/about-me.css">
     <link rel="stylesheet" href="styles/skills.css">
@@ -16,8 +17,18 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
-    <!-- this entire container is the landing-page section. -->
-    <div class="container landing-container">
+
+    <!-- Navbar Section -->
+     <nav class="section-nav">
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+     </nav>
+
+    <!-- Landing Page Section -->
+    <div id="landing" class="container landing-container">
         <div class="text">
             <h1>I'm Neal Langhorne.</h1>
             <div class="typing-effect-wrapper">
@@ -37,7 +48,7 @@
     </div>
 
     <!-- About Me Section -->
-    <div class="container about-me-container">
+    <div id="about-me" class="container about-me-container">
         <div class="text">
             <h1>About Me</h1>
             <p>Hello! I'm Neal, a fourth-year student studying computer science at the University of Virginia.
@@ -62,7 +73,7 @@
     </div>
 
     <!-- Skills Section -->
-<div class="container skills-container">
+<div id="skills" class="container skills-container">
     <div class="text">
         <h1>Skills</h1>
         <div class="skills">
@@ -130,7 +141,7 @@
     </div>
 </div>
 
-<div class="container projects-container">
+<div id="projects" class="container projects-container">
     <div class="text">
         <h1>Projects</h1>
         <div class="projects">
