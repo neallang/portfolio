@@ -2,6 +2,10 @@
     margin-top: 80vh;
 }
 
+.work-container h1::after {
+    width: 45%;
+}
+
 .img-container {
     display: flex;
     flex-direction: column;

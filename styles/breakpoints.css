@@ -94,6 +94,18 @@
     .work-container {
         margin-top: -20vh;
     }
+
+    .work-container h1::after {
+        width: 5%;
+    }
+
+    .contact-container {
+        margin-top: -45vh;
+    }
+
+    .contact-container h1::after {
+        width: 13%;
+    }
     
 }
 
@@ -136,6 +148,7 @@
         font-size: 0.7rem;
         padding: 0.3rem 0.7rem;
     }
+
 }
 
 /* Phones (max-width: 480px) */
@@ -290,6 +303,46 @@
 
     .work-container {
         margin-top: 10vh;
+    }
+
+    .contact-container {
+        margin-top: -20vh;
+    }
+
+    /* Change format just for phone breakpoint */
+    .contact-form {
+        max-width: 80%; 
+        margin: 0 auto; 
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        font-size: 0.8rem;;
+    }
+
+    .name-fields {
+        flex-direction: column; 
+        width: 100%; 
+    }
+
+    .name-field {
+        margin-right: 0; 
+        margin-bottom: 10px; 
+        width: 100%; 
+    }
+
+    .contact-form label {
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 5px; 
+    }
+
+    .contact-form input, .contact-form textarea {
+        width: 100%; 
+    }
+
+    .contact-form button { 
+        padding: 10px 30px;
+        text-align: center;
     }
 
 
