@@ -20,7 +20,7 @@ body {
     list-style: none;
     display: flex;
     gap: 3vw;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .section-nav a {

@@ -104,5 +104,13 @@
     .img-container .caption {
         font-size: 0.7rem;
     }
+
+    .footer-logo {
+        width: 50px;
+    }
+
+    .site-footer p {
+        font-size: 0.8rem;
+    }
 }
 
