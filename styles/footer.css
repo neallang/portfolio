@@ -1,0 +1,31 @@
+.site-footer {
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    /* Override project description margins & center */
+    width: 100vw;
+    left: calc(-50vw + 50%);
+    border-top: 1px solid #cccccc; /* Thin line */
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-logo {
+    width: 75px; 
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 1rem;
+}

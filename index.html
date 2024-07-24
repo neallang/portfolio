@@ -12,14 +12,16 @@
     <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="styles/work.css">
     <link rel="stylesheet" href="styles/contact-me.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/breakpoints.css">
     <!-- include Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- include Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/nealicon.png">
     <!-- include typed.js (typing effect) -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
-
     <!-- Navbar Section -->
      <nav class="section-nav">
         <ul>
@@ -50,201 +52,208 @@
         <img src="assets/images/avatar.png" alt="My Avatar" class="avatar">
     </div>
 
-    <!-- About Me Section -->
-    <div id="about-me" class="container about-me-container">
+        <!-- About Me Section -->
+        <div id="about-me" class="container about-me-container">
+            <div class="text">
+                <h1>About Me</h1>
+                <p>Hello! I'm Neal, a fourth-year student studying computer science at the University of Virginia.
+                    I'm passionate about bridging the gap between people and technology through user-friendly interaces and finding creative
+                    solutions to problems.
+                </p>
+                <p>
+                    My coding journey began when I took 'Introduction to 
+                    Programming' at UVA. While challenging, I found the assignments 
+                    extremely thought-provoking and rewarding, leading me to TA the course.
+                    I've also had the opportunity to teach courses in Python and Java. 
+                    More recently, I've found a passion for
+                    full-stack development, and I've used my learned skills to help several 
+                    companies develop their websites and a mobile application. 
+                </p>
+                <p>If you're looking for a hard worker with strong communication skills
+                    to add to your team, or you're just looking for an extra set of eyes and 
+                    hands on your project, please reach out. Let's connect 
+                    and pursue exciting new opportunities!
+                </p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+    <div id="skills" class="container skills-container">
         <div class="text">
-            <h1>About Me</h1>
-            <p>Hello! I'm Neal, a fourth-year student studying computer science at the University of Virginia.
-                I'm passionate about bridging the gap between people and technology through user-friendly interaces and finding creative
-                solutions to problems.
-            </p>
-            <p>
-                My coding journey began when I took 'Introduction to 
-                Programming' at UVA. While challenging, I found the assignments 
-                extremely thought-provoking and rewarding, leading me to TA the course.
-                I've also had the opportunity to teach courses in Python and Java. 
-                More recently, I've found a passion for
-                full-stack development, and I've used my learned skills to help several 
-                companies develop their websites and a mobile application. 
-            </p>
-            <p>If you're looking for a hard worker with strong communication skills
-                to add to your team, or you're just looking for an extra set of eyes and 
-                hands on your project, please reach out. Let's connect 
-                and pursue exciting new opportunities!
-            </p>
+            <h1>Skills</h1>
+            <div class="skills">
+                <div class="skill">
+                    <div class="icon-bg">
+                        <img src="assets/images/python.png" alt="Python">
+                    </div>
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-bg">
+                        <img src="assets/images/js.png" alt="JavaScript">
+                    </div>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-bg">
+                        <img src="assets/images/django.png" alt="Django">
+                    </div>
+                    <p>Django</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-bg">
+                        <img src="assets/images/react.png" alt="React">
+                    </div>
+                    <p>React</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-bg">
+                        <img src="assets/images/html.png" alt="HTML">
+                    </div>
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-bg">
+                        <img src="assets/images/css.png" alt="CSS">
+                    </div>
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-bg">
+                        <img src="assets/images/dart.png" alt="Dart">
+                    </div>
+                    <p>Dart</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-bg">
+                        <img src="assets/images/flutter.png" alt="Flutter">
+                    </div>
+                    <p>Flutter</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-bg">
+                        <img src="assets/images/java.png" alt="Java">
+                    </div>
+                    <p>Java</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-bg">
+                        <img src="assets/images/sql.png" alt="SQL">
+                    </div>
+                    <p>SQL</p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Skills Section -->
-<div id="skills" class="container skills-container">
-    <div class="text">
-        <h1>Skills</h1>
-        <div class="skills">
-            <div class="skill">
-                <div class="icon-bg">
-                    <img src="assets/images/python.png" alt="Python">
+        <!-- Projects Section-->
+    <div id="projects" class="container projects-container">
+        <div class="text">
+            <h1>Projects</h1>
+            <div class="projects">
+                <!-- Squardle -->
+                <div class="project">
+                    <div class="project-content">
+                        <h2 class="project-title">Squardle</h2>
+                        <div class="project-buttons">
+                            <a href="projects/squardle.html" class="btn">Description</a>
+                            <a href="https://github.com/neallang/squardle" target="_blank" class="icon"><i class="fab fa-github"></i></a>
+                            <a href="https://neallang.github.io/squardle/" target="_blank" class="icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <img src="assets/images/squardle-ss.png" alt="Squardle">
                 </div>
-                <p>Python</p>
-            </div>
-            <div class="skill">
-                <div class="icon-bg">
-                    <img src="assets/images/js.png" alt="JavaScript">
+                <!-- NBA Player Analysis -->
+                <div class="project">
+                    <div class="project-content">
+                        <h2 class="project-title">NBA Player Analysis</h2>
+                        <div class="project-buttons">
+                            <a href="projects/nba-player-analysis.html" class="btn">Description</a>
+                            <a href="https://github.com/neallang/NBA_v2" target="_blank" class="icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <img src="assets/images/nba-player-analysis-ss.png" alt="NBA Player Analysis">
                 </div>
-                <p>JavaScript</p>
-            </div>
-            <div class="skill">
-                <div class="icon-bg">
-                    <img src="assets/images/django.png" alt="Django">
+                <!-- Parking Buster -->
+                <div class="project">
+                    <div class="project-content">
+                        <h2 class="project-title">Parking Buster</h2>
+                        <div class="project-buttons">
+                            <a href="projects/parking-buster.html" class="btn">Description</a>
+                            <a href="https://github.com/neallang/parking-buster" target="_blank" class="icon"><i class="fab fa-github"></i></a>
+                            <a href="https://neallang.pythonanywhere.com" target="_blank" class="icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <img src="assets/images/parking-buster-ss.png" alt="Parking Buster">
                 </div>
-                <p>Django</p>
-            </div>
-            <div class="skill">
-                <div class="icon-bg">
-                    <img src="assets/images/react.png" alt="React">
+                <!-- Course Reviews -->
+                <div class="project">
+                    <div class="project-content">
+                        <h2 class="project-title">Course Reviews</h2>
+                        <div class="project-buttons">
+                            <a href="projects/course-reviews.html" class="btn">Description</a>
+                            <a href="https://github.com/neallang/Course-Reviews" target="_blank" class="icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <img src="assets/images/course-reviews-ss.png" alt="Course Reviews">
                 </div>
-                <p>React</p>
-            </div>
-            <div class="skill">
-                <div class="icon-bg">
-                    <img src="assets/images/html.png" alt="HTML">
-                </div>
-                <p>HTML</p>
-            </div>
-            <div class="skill">
-                <div class="icon-bg">
-                    <img src="assets/images/css.png" alt="CSS">
-                </div>
-                <p>CSS</p>
-            </div>
-            <div class="skill">
-                <div class="icon-bg">
-                    <img src="assets/images/dart.png" alt="Dart">
-                </div>
-                <p>Dart</p>
-            </div>
-            <div class="skill">
-                <div class="icon-bg">
-                    <img src="assets/images/flutter.png" alt="Flutter">
-                </div>
-                <p>Flutter</p>
-            </div>
-            <div class="skill">
-                <div class="icon-bg">
-                    <img src="assets/images/java.png" alt="Java">
-                </div>
-                <p>Java</p>
-            </div>
-            <div class="skill">
-                <div class="icon-bg">
-                    <img src="assets/images/sql.png" alt="SQL">
-                </div>
-                <p>SQL</p>
             </div>
         </div>
     </div>
-</div>
 
-    <!-- Projects Section-->
-<div id="projects" class="container projects-container">
-    <div class="text">
-        <h1>Projects</h1>
-        <div class="projects">
-            <!-- Squardle -->
-            <div class="project">
-                <div class="project-content">
-                    <h2 class="project-title">Squardle</h2>
-                    <div class="project-buttons">
-                        <a href="projects/squardle.html" class="btn">Description</a>
-                        <a href="https://github.com/neallang/squardle" target="_blank" class="icon"><i class="fab fa-github"></i></a>
-                        <a href="https://neallang.github.io/squardle/" target="_blank" class="icon"><i class="fas fa-external-link-alt"></i></a>
+        <!-- Work Section-->
+    <div id="work" class="container work-container">
+        <div class="text">
+            <h1>Work</h1>
+            <div class="projects">
+                <!-- Valor Biomechanics -->
+                <div class="project">
+                    <div class="project-content">
+                        <h2 class="project-title">Valor Biomechanics</h2>
+                        <div class="project-buttons">
+                            <a href="projects/valor.html" class="btn">Description</a>
+                            <a href="https://www.valorbiomechanics.com" target="_blank" class="icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
                     </div>
+                    <img src="assets/images/valor-ss.png" alt="Valor Biomechanics">
                 </div>
-                <img src="assets/images/squardle-ss.png" alt="Squardle">
-            </div>
-            <!-- NBA Player Analysis -->
-            <div class="project">
-                <div class="project-content">
-                    <h2 class="project-title">NBA Player Analysis</h2>
-                    <div class="project-buttons">
-                        <a href="projects/nba-player-analysis.html" class="btn">Description</a>
-                        <a href="https://github.com/neallang/NBA_v2" target="_blank" class="icon"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-                <img src="assets/images/nba-player-analysis-ss.png" alt="NBA Player Analysis">
-            </div>
-            <!-- Parking Buster -->
-            <div class="project">
-                <div class="project-content">
-                    <h2 class="project-title">Parking Buster</h2>
-                    <div class="project-buttons">
-                        <a href="projects/parking-buster.html" class="btn">Description</a>
-                        <a href="https://github.com/neallang/parking-buster" target="_blank" class="icon"><i class="fab fa-github"></i></a>
-                        <a href="https://neallang.pythonanywhere.com" target="_blank" class="icon"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <img src="assets/images/parking-buster-ss.png" alt="Parking Buster">
-            </div>
-            <!-- Course Reviews -->
-            <div class="project">
-                <div class="project-content">
-                    <h2 class="project-title">Course Reviews</h2>
-                    <div class="project-buttons">
-                        <a href="projects/course-reviews.html" class="btn">Description</a>
-                        <a href="https://github.com/neallang/Course-Reviews" target="_blank" class="icon"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-                <img src="assets/images/course-reviews-ss.png" alt="Course Reviews">
             </div>
         </div>
     </div>
-</div>
 
-    <!-- Work Section-->
-<div id="work" class="container work-container">
-    <div class="text">
-        <h1>Work</h1>
-        <div class="projects">
-            <!-- Valor Biomechanics -->
-            <div class="project">
-                <div class="project-content">
-                    <h2 class="project-title">Valor Biomechanics</h2>
-                    <div class="project-buttons">
-                        <a href="projects/valor.html" class="btn">Description</a>
-                        <a href="https://www.valorbiomechanics.com" target="_blank" class="icon"><i class="fas fa-external-link-alt"></i></a>
+        <!-- Contact Me Section -->
+    <div class="container contact-container">
+        <div class="text">
+            <h1>Contact Me</h1>
+            <form action="https://formspree.io/f/xanwqaqp" method="POST" class="contact-form">
+                <div class="name-fields">
+                    <div class="name-field">
+                        <label id="first-name-label" for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="name-field">
+                        <label id="last-name-label" for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" required>
                     </div>
                 </div>
-                <img src="assets/images/valor-ss.png" alt="Valor Biomechanics">
-            </div>
+                <label id="email-label" for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label id="message-label" for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
         </div>
     </div>
-</div>
 
-    <!-- Contact Me Section -->
-<div class="container contact-container">
-    <div class="text">
-        <h1>Contact Me</h1>
-        <form action="https://formspree.io/f/xanwqaqp" method="POST" class="contact-form">
-            <div class="name-fields">
-                <div class="name-field">
-                    <label id="first-name-label" for="first-name">First Name:</label>
-                    <input type="text" id="first-name" name="first-name" required>
-                </div>
-                <div class="name-field">
-                    <label id="last-name-label" for="last-name">Last Name:</label>
-                    <input type="text" id="last-name" name="last-name" required>
-                </div>
-            </div>
-            <label id="email-label" for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label id="message-label" for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-    </div>
-</div>
-
+            <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <img src="assets/images/nealicon.png" alt="Neal Lang Icon" class="footer-logo">
+            <p>&copy; 2024 Neal Langhorne. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="scripts/landing-page.js"></script>
 </body>

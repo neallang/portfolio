@@ -27,7 +27,7 @@ body {
 .project-title::after {
     content: "";
     display: block;
-    width: var(--underline-width); /*var for length of title underline */
+    width: var(--underline-width); /* Var for length of title underline */
     height: 4px;
     background-color: #778899;
     margin-top: 0.5rem;
