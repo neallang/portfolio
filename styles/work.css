@@ -36,6 +36,5 @@
     font-size: 1rem;
     color: #fff;
     text-align: center;
-    white-space: nowrap; /* Ensure the caption stays on one line */
     font-weight: bold;
 }

@@ -11,9 +11,9 @@
     .img-wrapper img{
         width: 100%;
     }
-    .img-container .caption {
+    /* .img-container .caption {
         white-space: normal;
-    }
+    } */
 }
 
 /* Tablets and small desktops (max-width: 768px) */
