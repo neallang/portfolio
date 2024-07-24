@@ -26,9 +26,26 @@ body {
 .section-nav a {
     color: white;
     text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
 }
 
-.section-nav a:hover {
-    background-color: #575757;
+.section-nav a::after{
+    content: '';
+    position:absolute;
+    left: 0;
+    bottom: -6px;
+    width: 95%;
+    height: 4px;
+    background-color: #778899;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
 }
+
+.section-nav a:hover::after {
+    transform: scaleX(1); /* Show the underline on hover */
+}
+
+
 
