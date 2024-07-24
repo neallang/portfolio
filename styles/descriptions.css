@@ -51,15 +51,24 @@ body {
 .icons {
     margin-bottom: 7vh;
 }
+
 .github-icon {
     color: white;
     font-size: 1.9rem;
     margin-right: 10px;
+    transition: transform 0.3s ease;
+    display: inline-block;
 }
 
 .site-icon {
     color: white;
     font-size: 1.7rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.github-icon:hover, .site-icon:hover {
+    transform: scale(1.2);
 }
 
 .description-header, .tech-stack-header, .features-header {

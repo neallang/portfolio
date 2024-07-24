@@ -100,6 +100,7 @@
 
 }
 
+
 /* hover effect */
 .project:hover .icon, .project:hover .btn {
     opacity: 1;
@@ -125,4 +126,10 @@
 
 .project:hover img {
     filter: brightness(1);
+}
+
+
+.project-buttons .btn:hover, .project-buttons .icon:hover {
+    transform: scale(1.1);
+    transition-delay: 0.1s;
 }
