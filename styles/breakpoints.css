@@ -307,11 +307,12 @@
     }
 
     .work-container {
-        margin-top: 10vh;
+        margin-top: 25vh;
+        scroll-margin-top: 10vh;
     }
 
     .contact-container {
-        margin-top: -20vh;
+        margin-top: -5vh;
         scroll-margin-top: 20vh;
     }
 
