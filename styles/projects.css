@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 .projects-container {
-    scroll-margin-top: 100vh;
+    scroll-margin-top: 160vh;
 }
 
 .projects-container h1::after {

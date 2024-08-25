@@ -1,5 +1,6 @@
 .work-container {
-    margin-top: 80vh;
+    margin-top: 140vh;
+    scroll-margin-top: 35vh;
 }
 
 .work-container h1::after {
